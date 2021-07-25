@@ -22,5 +22,7 @@ TODO:
 * Options:
   * Automatic redirect
   * Only automatically preselect dropdowns
+  * delay redirect with countdown
 
 *  Improve default theme
+*  Add eventlisteners to dropdown's to customize
