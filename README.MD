@@ -1,6 +1,6 @@
 # UTF-8 ISO Locale Redirect Recommender
 
-## Currently supports 127 different lannguage+country combinations.
+## Currently supports 127 different language + country combinations.
 
 
 ### To run the simple static localhost
