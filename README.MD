@@ -1,3 +1,5 @@
+#UTF-8 ISO Locale Redirect Recommender
+
 Currently supports 127 different lannguage+country combinations.
 
 
