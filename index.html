@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation and Language</title>
+    <script defer src="./script.js"></script>
+    <style>
+        body {
+            color: white;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        .wrapper {
+            background: grey;
+            border: 1px solid grey;
+            padding: 1em;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        label{
+            display: inline-block;
+            font-size: 1.1em;
+            margin: 0.5em 0;
+        }
+        select {
+            border-radius: 4px 4px 4px 4px;
+            padding: 0.5em;
+        }
+
+        .message {
+            color: brown;
+            background: beige;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 4px 4px 4px 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Geolocation and Language</h1>
+        <div>
+            <label for="country"><strong>Country (geo getect):</label>
+            <br />
+            <select class="country">
+                <option value="Default">Default</option>
+                <option value="NL">Nederland</option>
+                <option value="US">Amerika</option>
+                <option value="BE">Belgie</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="language">Language (browser detect):</label>
+            <br />
+            <select class="language">
+                <option value="Default">Default</option>
+                <option value="nl">Dutch</option>
+                <option value="en">English</option>
+                <option value="fr">French</option>
+            </select>
+        </div>
+        <div class="message">Matching ...</div><span>Best existing result: </span></spanm><span class="redirect"></span>
+    </div>
+</body>
+</html>
