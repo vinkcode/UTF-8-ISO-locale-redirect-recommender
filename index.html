@@ -8,19 +8,19 @@
     <script defer src="./script.js"></script>
     <style>
         body {
-            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: grey;
+            color: black;
         }
         h1 {
             text-align: center;
         }
-
         .wrapper {
-            background: grey;
+            background: burlywood;
             border: 1px solid grey;
             padding: 1em;
             border-radius: 10px 10px 10px 10px;
         }
-
         label{
             display: inline-block;
             font-size: 1.1em;
@@ -28,10 +28,15 @@
         }
         select {
             border-radius: 4px 4px 4px 4px;
+            font-size: 1.1em;
             padding: 0.5em;
+            background: brown;
+            color: white;
+            width: 100%;
+        
         }
-
         .message {
+            font-size: 1.1em;
             color: brown;
             background: beige;
             margin: 0.5em 0;
@@ -45,7 +50,7 @@
     <div class="wrapper">
         <h1>Geolocation and Language</h1>
         <div>
-            <label for="country"><strong>Country (geo getect):</label>
+            <label for="country">Country (geo getect):</label>
             <br />
             <select class="country">
                 <option value="Default">Default</option>
@@ -65,7 +70,10 @@
                 <option value="fr">French</option>
             </select>
         </div>
-        <div class="message">Matching ...</div><span>Best existing result: </span></spanm><span class="redirect"></span>
+        <div class="message">Loading your settings 
+            <img style="width: 16px;" src="./spinner.gif" />
+        </div>
+            <span>Best existing redirect: </span><span class="redirect"></span>
     </div>
 </body>
 </html>
