@@ -20,7 +20,7 @@ default open http://localhost:3000/
 
 TODO:
 * Options:
-** Automatic redirect
-** Only automatically preselect dropdowns
+  * Automatic redirect
+  * Only automatically preselect dropdowns
 
 *  Improve default theme
