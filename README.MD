@@ -1,3 +1,5 @@
+Currently supports 127 different lannguage+country combinations.
+
 
 To run the simple static localhost
 ~~~
