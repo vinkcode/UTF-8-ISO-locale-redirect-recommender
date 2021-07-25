@@ -162,7 +162,6 @@ const redirect = () => {
     var error = (data) => {
         console.log(data)
     }
-
     navigator.geolocation.getCurrentPosition(success, error);
 }
 
