@@ -155,7 +155,7 @@ const redirect = () => {
         }
 
         var googleapis = 
-            fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=AIzaSyASD6wHSP8cAK6yU9jLgAuUEoV-iP-bK98`)
+            fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=secret`)
             .then(response => response.json()).then(display);
     }
 
